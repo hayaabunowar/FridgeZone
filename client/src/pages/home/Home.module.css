@@ -1,0 +1,85 @@
+.homeLoginButton{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.homeLayoutDiv{
+    display:flex;
+    justify-content: flex-end;
+    width:100%;
+}
+
+.homeSideBar{
+    width:300px;
+    position: sticky;
+    top:1vh;
+    height:100vh;
+    border-left: 1px solid rgb(214, 214, 214) ;
+    padding:10px;
+    font-weight: bolder;
+}
+
+@media (max-width: 700px) {
+    .homeLayoutDiv{
+        flex-direction: column;
+        flex-flow: column-reverse;
+    }
+    .homeSideBar{
+        position: relative;
+        top:1vh;
+        height:auto;
+        border-left: 1px solid rgb(214, 214, 214) ;
+        padding:10px
+    }
+}
+
+.homeFunctionDivBox{
+    width: 100%;
+}
+
+.homeDivBox{
+    margin:auto;
+    margin-top: 8vh;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #ccc;
+    max-width: 1200px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.link {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;  
+  width: 150px;
+  height: 50px;  
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: #0d6efd; 
+  color: white;
+  border: none;
+  margin: 1px;
+  margin-bottom: 2px;
+}
+
+.linkHealth {
+    height: 60px;
+}
+
+.link:hover {
+  background-color: #083d8e;
+  color: white;
+}
+
+.link a{
+    text-decoration: none;
+    color:rgb(195, 195, 195);
+}
+

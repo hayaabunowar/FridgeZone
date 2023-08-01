@@ -1,0 +1,82 @@
+
+.inputBox{
+    margin:auto;
+    margin-top: 10vh;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #ccc;
+    max-width: 800px;
+    height:500px;
+  }
+  
+.SignUp-head {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-top: 1vh;
+    font-weight: bold;
+    font-size: 2vw;
+    margin-bottom: 6vh;
+  }
+  
+  .formLabel {
+    margin-left: 19vw;
+    margin-bottom: 3vh;
+    display: inline-block; 
+    width: 10vw;
+
+    margin-left: 15vw;  
+  }
+  
+  .formInput {
+    width: 20vw;
+    margin-left: 2vw;  
+  }
+  
+  .btn {
+    margin-left: 25vw;
+    border: none;
+    /* background-color: #333; */
+    color: #fff;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 3vh;
+  }
+  @media only screen and (max-width: 1200px) {
+    .inputBox {
+      max-width: 100%;
+      height: auto;
+      text-align: center;
+    }
+    h1 {
+      font-size: 1.5em;
+    }
+    .formLabel {
+      margin-bottom: 3vh;
+      display: inline-block;
+      width: 10vw;
+      margin-left: 0;
+      width: 100%;
+      text-align: center;
+        
+    }
+    .formInput {
+      width: 20vw;
+      width: 100%;
+      margin-left: 0;
+      }
+    
+    .btn {
+      margin-left: 0;
+      width: 100%;
+      display: block;
+      text-align: center;
+      margin-top: 4vh;
+    }
+  
+  }
+  
+

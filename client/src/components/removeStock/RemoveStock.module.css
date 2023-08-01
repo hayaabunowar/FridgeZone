@@ -1,0 +1,80 @@
+.stockDetails {
+
+    border-radius: 4px;
+    margin:5px;
+    
+    text-overflow: ellipsis;  /* text over flow to prevent words overflowing*/
+    overflow: auto;
+    ;
+  }
+  .stockRemoveDiv{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+  }
+  
+  .stockRemoveIndividual{
+    width:100%;
+    margin:1px;
+    display:flex;
+    text-overflow: ellipsis;
+    overflow: auto;
+  }
+  
+  .stockRemoveIndividual div{
+    width:20%;
+    text-overflow: ellipsis;
+    overflow: auto;
+  }
+  .stockIdDiv{
+    width:20%;
+    text-overflow: ellipsis;
+    overflow: auto;
+  }
+  .RemoveStockRemoveDiv{
+    display:Flex;
+    
+  }
+  .RemoveStockRemoveDiv input{
+    margin-right: 5px;
+    width:50px;
+    /* background-color: #333; */
+    color: #fff;
+    
+    text-overflow: ellipsis;
+    overflow: auto;
+  }
+
+  .stockRemoveHeaderDiv{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  .stockRemoveHeaderDiv button{
+    margin-bottom: 5vh;
+    margin-left: 2vw;
+    /* background-color: #333; */
+    color: #fff;
+  }
+  .RemoveButton{
+    /* background-color: #333; */
+    color: #fff;
+  }
+  @media (max-width: 1200px) {
+    .stockRemoveIndividual div {
+      width: 50%;
+    }
+    
+    .RemoveStockRemoveDiv input {
+      width: 30px;
+    }
+    
+    .stockRemoveHeaderDiv button {
+      margin-bottom: 2vh;
+      margin-left: 1vw;
+    }
+  }

@@ -1,0 +1,47 @@
+  .addStockContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .addStockInput{
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+  .addStockButton[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    /* background-color: #333; */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .addStockResult{
+    display:flex;
+    justify-content: center;
+  }
+  .addStockError{
+    color:red;
+  } 
+  .addStockMessage{
+    color:green;
+  }
+  @media (min-width: 700px) {
+    .addStockInput {
+      width: 50%;
+      font-size: 1.5rem;
+    }
+    .addStockButton {
+      width: 20%;
+      font-size: 1.2rem;
+    } 
+  }
+  
+  
+  

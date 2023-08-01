@@ -1,0 +1,58 @@
+.resultArrayIndividual{
+  width:100%;
+  margin:1px;
+  display:flex;
+  text-overflow: ellipsis;
+    
+  
+  
+
+}
+.Individual div{
+    width:20%;
+    text-overflow: ellipsis;
+    
+  }
+
+.resultArray {
+border-radius: 4px;
+margin:5px;
+text-overflow: ellipsis;
+  
+}
+.resultArrayDiv{
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: flex-start;
+text-overflow: ellipsis;
+width:100%;
+}
+
+.resultArrayIndividual{
+width:100%;
+margin:1px;
+display:flex;
+text-overflow: ellipsis;
+  
+}
+
+.resultArrayIndividual div{
+width:80%;
+text-overflow: ellipsis;
+overflow: auto;
+  
+}
+.resultArrayHeaderDiv{
+display:flex;
+justify-content: center;
+align-items: center;
+text-overflow: ellipsis;
+    
+}
+.resultArrayHeaderDiv button{
+margin-bottom: 5vh;
+margin-left: 2vw;
+text-overflow: ellipsis;
+    
+}

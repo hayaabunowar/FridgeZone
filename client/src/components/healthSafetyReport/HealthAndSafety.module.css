@@ -1,0 +1,37 @@
+.healthSafetyHeaderDiv{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.healthSafetyHeaderDiv h1{
+    padding-right: 10px;
+}
+
+.healthSafetyHeaderDiv button{
+    margin-bottom: 5vh;
+    margin-left: 2vw;
+}
+
+
+.healthSafetyDetails{
+    border-radius: 4px;
+    margin:5px;
+}
+.healthSafetyDiv{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+  
+.healthSafetyIndividual{
+    width:100%;
+    margin:1px;
+    display:flex;
+  }
+  
+.healthSafetyIndividual div{
+    width:20%;
+  }

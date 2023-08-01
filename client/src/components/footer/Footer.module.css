@@ -1,0 +1,47 @@
+.footerContainer{
+    
+    min-height:100px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #0d6efd;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerContainer a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    background: #0a58ca;
+    margin: 0 10px;
+}
+
+.logOutButton{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    background: #0a58ca;
+    margin: 0 10px;
+    border:0;
+}   
+.footerDivFlex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerDivFlex p{
+    margin:0;
+    
+}
+.footerButton:hover{
+    background:#083d8e ;
+}
+
+p{
+    font-weight: bolder;
+}

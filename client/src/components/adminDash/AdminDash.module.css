@@ -1,0 +1,56 @@
+.adminDashDetails {
+    border-radius: 4px;
+    margin:5px;
+    text-overflow: ellipsis;  /* text over flow to prevent words overflowing*/
+    overflow: auto;
+    ;
+  }
+  .adminDashDiv{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+  }
+  .adminDashContainer{
+    width:100%;
+    overflow:hidden;
+  }
+  
+  .adminDashIndividual{
+    width:100%;
+    margin:1px;
+    display:flex;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  
+  .adminDashIndividual div{
+    width:30%;
+    text-overflow: ellipsis;
+    overflow: auto;
+  }
+  .adminDashDiv{
+    width:100%;
+    text-overflow: ellipsis;
+    overflow: auto;
+  }
+  .adminDashRemoveDiv{
+    display:Flex;
+  }
+  .adminDashDiv input{
+    margin-right: 5px;
+    width:100px;
+    text-overflow: ellipsis;
+    overflow:hidden;
+  }
+
+  .adminDashHeaderDiv{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .adminDashHeaderDiv button{
+    margin-bottom: 5vh;
+    margin-left: 2vw;
+  }

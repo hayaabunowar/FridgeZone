@@ -1,0 +1,53 @@
+
+.stockDetails {
+
+  border-radius: 4px;
+  margin:5px;
+  text-overflow: ellipsis;
+    
+}
+.stockViewDiv{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  text-overflow: ellipsis;
+    
+}
+
+.stockViewIndividual{
+  width:100%;
+  margin:1px;
+  display:flex;
+  text-overflow: ellipsis;
+    
+}
+
+.stockViewIndividual div{
+  width:20%;
+  text-overflow: ellipsis;
+  overflow: auto;
+}
+.stockViewHeaderDiv{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-overflow: ellipsis;
+    
+}
+.stockViewHeaderDiv button{
+  margin-bottom: 5vh;
+  margin-left: 2vw;
+  /* background-color: #333; */
+  color: #fff;
+}
+@media (max-width: 1200px) {
+  .stockViewIndividual div {
+    width: 50%;
+  }
+  
+  .stockHeaderDiv button {
+    margin-bottom: 2vh;
+    margin-left: 1vw;
+  }
+}
